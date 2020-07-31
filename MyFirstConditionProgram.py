@@ -11,3 +11,7 @@ dict_stock_price_YesBank = {'YES':{'NSE': {'07302020': 11.90,'07292020': 12.35, 
 print (dict_stock_price_YesBank ['YES'] ['NSE'])
 
 print (dict_stock_price_YesBank ['YES'] ['BSE'])
+
+# Time to Start reading & writing text files
+
+print ('\n***************** Reading input Files *****************')
