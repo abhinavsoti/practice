@@ -14,4 +14,14 @@ print (dict_stock_price_YesBank ['YES'] ['BSE'])
 
 # Time to Start reading & writing text files
 
-print ('\n***************** Reading input Files *****************')
+print ('\n***************** Reading test.txt Files *****************')
+
+myfile = open('test.txt',mode = 'r')
+contents = myfile.read()
+myfile.seek(0)
+contents2 = myfile.readlines()
+
+print (contents)
+print (contents2)
+
+print ('\n***************** Finished Reading test.txt Files *****************')
