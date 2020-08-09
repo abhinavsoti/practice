@@ -43,3 +43,11 @@ print('Content of test_copy.txt file is \n' + content_read)
 # More Mathematical (and Harder) Practice:  https://projecteuler.net/archives
 
 # List of Practice Problems: http://www.codeabbey.com/index/task_list
+
+
+mystring = 'Hello World'
+print(mystring)
+print('Hello World')
+
+for letter in mystring:
+    print(letter)
