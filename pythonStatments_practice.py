@@ -2,6 +2,7 @@
 # Script Name: GetUserDetails_checkAllrunningProcess                                 #
 # Description: This script will print the user executing the program and will also   #
 #              keep checking the current system processes running at the moment.     #
+# Version    : 1.0                                                                   #
 ######################################################################################
 
 import datetime
