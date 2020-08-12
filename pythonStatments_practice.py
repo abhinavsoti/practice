@@ -1,3 +1,9 @@
+######################################################################################
+# Script Name: GetUserDetails_checkAllrunningProcess                                 #
+# Description: This script will print the user executing the program and will also   #
+#              keep checking the current system processes running at the moment.     #
+######################################################################################
+
 import datetime
 import getpass
 import psutil
