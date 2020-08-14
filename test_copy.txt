@@ -1,0 +1,3 @@
+**************Creating copy of test.txt file**************
+First Line
+Second Line
