@@ -20,3 +20,8 @@ print (v_stop)
 print (result)
 v_execution_time = (v_stop - v_start).total_seconds()
 print ('The program got executed in ' + str(v_execution_time) + ' seconds')
+
+
+text = 'Levelheader Llama'
+first_char = text[0]
+print (first_char)
