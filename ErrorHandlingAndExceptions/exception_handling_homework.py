@@ -31,7 +31,7 @@ finally:
 
 def ask_for_int():
     """
-    ask_for_int: Function to accept number as input and return its square as output
+    ask_for_int: Function to accept number from user as input and return its square as output
     """
     while True:
         try:
