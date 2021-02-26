@@ -1,0 +1,20 @@
+# First Error Handling Program
+# This is my first try and except program
+
+def mySum(a, b):
+    return a+b
+
+try:
+    f = open('keepSum','w')
+    val = mySum(10,20)
+    f.write("The Sum of the values is " + str(val) + '\n')
+    f.write("The Sum of the values is " + str(mySum(10,10)))
+    f.close()
+except TypeError:
+    print("There was a type error")
+except:
+    print("Something Went Wrong")
+finally:
+    f = open('keepSum','r')
+    print (f.readlines())
+    f.close()
